@@ -399,6 +399,10 @@ html {
   margin: 0 auto;
 }
 
+.section-header {
+  margin-bottom: 125px;
+}
+
 .header-container {
   height: 110px;
   display: flex;
@@ -622,6 +626,30 @@ html {
 }
 .main-info div {
   margin-right: 25px;
+}
+
+.benefits-section {
+  min-width: 1440px;
+  height: 326px;
+  background-color: #F7F9FB;
+}
+.benefits-section__geometry {
+  padding: 132px 0 0 0;
+  display: flex;
+}
+.benefits-section__title {
+  width: 398px;
+  border: 1px solid red;
+  font-family: "Integral CF";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 31px;
+  letter-spacing: 0.8px;
+}
+.benefits-section__transaction-container {
+  width: 20px;
+  height: 20px;
+  border: 1px solid green;
 }
 
 @media (min-width: 551px) and (max-width: 1199px) {
