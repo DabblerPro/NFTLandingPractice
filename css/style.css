@@ -634,7 +634,7 @@ html {
   background-color: #F7F9FB;
 }
 .benefits-section__geometry {
-  padding: 132px 0 0 0;
+  padding: 120px 0 0 0;
   display: flex;
 }
 .benefits-section__title {
@@ -645,11 +645,34 @@ html {
   font-weight: bold;
   line-height: 31px;
   letter-spacing: 0.8px;
+  padding-top: 12px;
+  margin-right: 85px;
 }
 .benefits-section__transaction-container {
-  width: 20px;
-  height: 20px;
+  width: 300px;
+  height: 150px;
   border: 1px solid green;
+  display: flex;
+}
+.benefits-section__transaction-container img {
+  width: 36px;
+  height: 36px;
+  margin-right: 18px;
+}
+
+.transaction-container__first-text-block {
+  padding-top: 10px;
+}
+.transaction-container__first-text-block h1 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  margin-bottom: 12px;
+}
+.transaction-container__first-text-block p {
+  color: #696969;
+  font-size: 14px;
+  line-height: 160%;
 }
 
 @media (min-width: 551px) and (max-width: 1199px) {
