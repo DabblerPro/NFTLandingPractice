@@ -629,7 +629,6 @@ html {
 }
 
 .benefits-section {
-  min-width: 1440px;
   height: 326px;
   background-color: #F7F9FB;
 }
@@ -638,20 +637,17 @@ html {
   display: flex;
 }
 .benefits-section__title {
-  width: 398px;
-  border: 1px solid red;
   font-family: "Integral CF";
   font-size: 28px;
   font-weight: bold;
   line-height: 31px;
   letter-spacing: 0.8px;
   padding-top: 12px;
-  margin-right: 85px;
+  margin-right: 120px;
 }
 .benefits-section__transaction-container {
-  width: 300px;
+  width: 355px;
   height: 150px;
-  border: 1px solid green;
   display: flex;
 }
 .benefits-section__transaction-container img {
@@ -676,6 +672,9 @@ html {
 }
 
 @media (min-width: 551px) and (max-width: 1199px) {
+  .section-header {
+    margin-bottom: 450px;
+  }
   .header-container {
     margin-bottom: 5px;
   }
@@ -797,8 +796,32 @@ html {
   .main-info div {
     margin-right: 0px;
   }
+  .benefits-section {
+    min-width: 551px;
+    width: 100%;
+    min-height: 326px;
+    height: 100%;
+  }
+  .benefits-section__geometry {
+    padding: 12px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .benefits-section__title {
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+  .benefits-section__transaction-container {
+    height: 100px;
+    margin-bottom: 25px;
+  }
 }
 @media (min-width: 320px) and (max-width: 551px) {
+  .section-header {
+    margin-bottom: 100%;
+  }
   .header-container {
     height: 110px;
     margin-bottom: 5px;
@@ -991,5 +1014,41 @@ html {
   }
   .main-info div {
     margin-right: 0px;
+  }
+  .benefits-section {
+    min-width: 320px;
+    width: 100%;
+    min-height: 326px;
+    height: 100%;
+  }
+  .benefits-section__geometry {
+    padding: 12px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .benefits-section__title {
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+  .benefits-section__transaction-container {
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+  }
+  .benefits-section__transaction-container h1 {
+    text-align: center;
+  }
+  .benefits-section__transaction-container p {
+    width: 300px;
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
