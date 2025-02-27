@@ -234,26 +234,23 @@ html
 
 // Style for benefits section start here
 .benefits-section
-    min-width: 1440px
+    // min-width: 1440px
     height: 326px
     background-color: #F7F9FB
     &__geometry
         padding: 120px 0 0 0
         display: flex
     &__title
-        width: 398px
-        border: 1px solid red
         font-family: "Integral CF"
         font-size: 28px
         font-weight: bold
         line-height: 31px
         letter-spacing: 0.8px
         padding-top: 12px
-        margin-right: 85px
+        margin-right: 120px
     &__transaction-container
-        width: 300px
+        width: 355px
         height: 150px
-        border: 1px solid green
         display: flex
         img
             width: 36px
@@ -277,6 +274,8 @@ html
 
 // Media for tablet
 @media (min-width: 551px) and (max-width: 1199px)    
+    .section-header
+        margin-bottom: 450px
     .header-container
         margin-bottom: 5px
     .header-container__logo
@@ -380,9 +379,34 @@ html
         div
             margin-right: 0px
 
+    // Style for benefits section start here
+    .benefits-section
+        min-width: 551px
+        width: 100%
+        min-height: 326px
+        height: 100%
+        &__geometry
+            padding: 12px 0 0 0
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &__title
+            margin-right: 0px
+            margin-bottom: 50px
+        &__transaction-container
+            height: 100px
+            margin-bottom: 25px
+
+
+
+
 
 // media for mobile    
 @media (min-width: 320px) and (max-width: 551px)
+    .section-header
+        // margin-bottom: 370px
+        margin-bottom: 100%
     .header-container
         height: 110px
         margin-bottom: 5px
@@ -544,3 +568,34 @@ html
         div
             margin-right: 0px   
     
+    // Style for benefits section start here
+    .benefits-section
+        min-width: 320px
+        width: 100%
+        min-height: 326px
+        height: 100%
+        &__geometry
+            padding: 12px 0 0 0
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        &__title
+            width: 100%
+            text-align: center
+            margin-right: 0px
+            margin-bottom: 50px
+        &__transaction-container
+            padding: 0 0 0 20px 
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center 
+            width: 100%
+            height: 100px
+            margin-bottom: 50px
+            h1
+                text-align: center
+            p
+                width: 300px
+                text-align: center
